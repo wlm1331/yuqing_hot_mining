@@ -1,0 +1,134 @@
+week1
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+
+Logging initialized using configuration in file:/etc/hive/2.5.3.0-37/0/hive-log4j.properties
+OK
+Time taken: 0.243 seconds
+Loading data to table wangliming.weibo_origin partition (week_seq=week1)
+Partition wangliming.weibo_origin{week_seq=week1} stats: [numFiles=1, numRows=0, totalSize=893039466, rawDataSize=0]
+OK
+Time taken: 679.555 seconds
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+
+Logging initialized using configuration in file:/etc/hive/2.5.3.0-37/0/hive-log4j.properties
+OK
+Time taken: 0.366 seconds
+Added [/home/wangliming/yuqing_hot_mining/udf/YuqingHotMining-jar-with-dependencies.jar] to class path
+Added resources: [/home/wangliming/yuqing_hot_mining/udf/YuqingHotMining-jar-with-dependencies.jar]
+OK
+Time taken: 0.017 seconds
+Query ID = wangliming_20181129165429_82877285-0611-4e0c-8466-f19a21a6b178
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1543480814752_0005, Tracking URL = http://sc-slave1:8088/proxy/application_1543480814752_0005/
+Kill Command = /usr/hdp/2.5.3.0-37/hadoop/bin/hadoop job  -kill job_1543480814752_0005
+Hadoop job information for Stage-1: number of mappers: 8; number of reducers: 0
+2018-11-29 16:54:46,068 Stage-1 map = 0%,  reduce = 0%
+2018-11-29 16:55:47,015 Stage-1 map = 0%,  reduce = 0%, Cumulative CPU 429.01 sec
+2018-11-29 16:56:31,651 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 731.79 sec
+2018-11-29 16:57:32,089 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 1076.57 sec
+2018-11-29 16:58:21,664 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 1358.61 sec
+2018-11-29 16:58:34,651 Stage-1 map = 38%,  reduce = 0%, Cumulative CPU 1415.58 sec
+2018-11-29 16:59:34,714 Stage-1 map = 38%,  reduce = 0%, Cumulative CPU 1593.04 sec
+2018-11-29 17:00:35,146 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 1765.3 sec
+2018-11-29 17:01:26,208 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 1919.16 sec
+2018-11-29 17:02:27,253 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 2104.5 sec
+2018-11-29 17:02:31,831 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 2119.66 sec
+2018-11-29 17:02:54,233 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 2189.08 sec
+2018-11-29 17:03:55,188 Stage-1 map = 68%,  reduce = 0%, Cumulative CPU 2353.86 sec
+2018-11-29 17:04:16,234 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 2410.32 sec
+2018-11-29 17:05:16,335 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 2584.47 sec
+2018-11-29 17:05:43,112 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 2660.54 sec
+2018-11-29 17:05:58,304 Stage-1 map = 83%,  reduce = 0%, Cumulative CPU 2688.95 sec
+2018-11-29 17:06:59,201 Stage-1 map = 83%,  reduce = 0%, Cumulative CPU 2795.26 sec
+2018-11-29 17:08:00,389 Stage-1 map = 83%,  reduce = 0%, Cumulative CPU 2883.94 sec
+2018-11-29 17:09:01,145 Stage-1 map = 83%,  reduce = 0%, Cumulative CPU 2978.0 sec
+2018-11-29 17:09:40,583 Stage-1 map = 87%,  reduce = 0%, Cumulative CPU 3038.6 sec
+2018-11-29 17:10:40,877 Stage-1 map = 87%,  reduce = 0%, Cumulative CPU 3072.71 sec
+2018-11-29 17:11:41,021 Stage-1 map = 87%,  reduce = 0%, Cumulative CPU 3101.78 sec
+2018-11-29 17:12:38,139 Stage-1 map = 94%,  reduce = 0%, Cumulative CPU 3123.54 sec
+2018-11-29 17:13:38,325 Stage-1 map = 94%,  reduce = 0%, Cumulative CPU 3138.11 sec
+2018-11-29 17:14:38,731 Stage-1 map = 94%,  reduce = 0%, Cumulative CPU 3152.39 sec
+2018-11-29 17:15:39,464 Stage-1 map = 94%,  reduce = 0%, Cumulative CPU 3166.07 sec
+2018-11-29 17:16:04,050 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3172.43 sec
+2018-11-29 17:17:05,476 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3186.87 sec
+2018-11-29 17:18:05,559 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3201.17 sec
+2018-11-29 17:19:06,733 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3215.45 sec
+2018-11-29 17:20:07,557 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3229.61 sec
+2018-11-29 17:21:08,584 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3243.37 sec
+2018-11-29 17:22:09,812 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3257.37 sec
+2018-11-29 17:23:10,459 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3271.3 sec
+2018-11-29 17:24:10,606 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3285.48 sec
+2018-11-29 17:25:12,086 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3299.55 sec
+2018-11-29 17:26:12,523 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3313.84 sec
+2018-11-29 17:27:13,552 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3328.02 sec
+2018-11-29 17:28:14,482 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 3341.09 sec
+2018-11-29 17:28:23,827 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 3342.56 sec
+MapReduce Total cumulative CPU time: 55 minutes 42 seconds 560 msec
+Ended Job = job_1543480814752_0005
+Stage-4 is selected by condition resolver.
+Stage-3 is filtered out by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Moving data to directory hdfs://sc-master-v2:8020/apps/hive/warehouse/wangliming.db/weibo_seg_result/.hive-staging_hive_2018-11-29_16-54-29_020_3084756365585735650-1/-ext-10000
+Loading data to table wangliming.weibo_seg_result partition (week_seq=null)
+	 Time taken to load dynamic partitions: 1.345 seconds
+	Loading partition {week_seq=week3}
+	Loading partition {week_seq=week2}
+	Loading partition {week_seq=week1}
+	 Time taken for adding to write entity : 2
+Partition wangliming.weibo_seg_result{week_seq=week1} stats: [numFiles=4, numRows=4790110, totalSize=651893021, rawDataSize=5086899512]
+Partition wangliming.weibo_seg_result{week_seq=week2} stats: [numFiles=4, numRows=4868593, totalSize=681309669, rawDataSize=5196597513]
+Partition wangliming.weibo_seg_result{week_seq=week3} stats: [numFiles=4, numRows=3892053, totalSize=565515559, rawDataSize=4187122545]
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 8   Cumulative CPU: 3343.19 sec   HDFS Read: 1030507794 HDFS Write: 1898719423 SUCCESS
+Total MapReduce CPU Time Spent: 55 minutes 43 seconds 190 msec
+OK
+Time taken: 2048.377 seconds
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+
+Logging initialized using configuration in file:/etc/hive/2.5.3.0-37/0/hive-log4j.properties
+OK
+Time taken: 0.252 seconds
+Added [/home/wangliming/yuqing_hot_mining/udf/YuqingHotMining-jar-with-dependencies.jar] to class path
+Added resources: [/home/wangliming/yuqing_hot_mining/udf/YuqingHotMining-jar-with-dependencies.jar]
+FAILED: SemanticException [Error 10011]: Line 5:27 Invalid function 'seg'
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+
+Logging initialized using configuration in file:/etc/hive/2.5.3.0-37/0/hive-log4j.properties
+OK
+Time taken: 0.246 seconds
+Added [/home/wangliming/yuqing_hot_mining/udf/YuqingHotMining-jar-with-dependencies.jar] to class path
+Added resources: [/home/wangliming/yuqing_hot_mining/udf/YuqingHotMining-jar-with-dependencies.jar]
+OK
+Time taken: 0.012 seconds
+Query ID = wangliming_20181130163325_06d330d9-6393-44ed-ae77-9f15010190d8
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1543483850053_0093, Tracking URL = http://sc-slave1:8088/proxy/application_1543483850053_0093/
+Kill Command = /usr/hdp/2.5.3.0-37/hadoop/bin/hadoop job  -kill job_1543483850053_0093
+Hadoop job information for Stage-1: number of mappers: 4; number of reducers: 0
+2018-11-30 16:33:34,077 Stage-1 map = 0%,  reduce = 0%
+2018-11-30 16:34:34,648 Stage-1 map = 0%,  reduce = 0%, Cumulative CPU 268.2 sec
+2018-11-30 16:35:31,832 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 510.3 sec
+2018-11-30 16:36:32,097 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 699.34 sec
+2018-11-30 16:37:27,362 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 869.59 sec
+2018-11-30 16:38:05,864 Stage-1 map = 75%,  reduce = 0%, Cumulative CPU 949.49 sec
+2018-11-30 16:38:41,050 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 984.92 sec
+MapReduce Total cumulative CPU time: 16 minutes 24 seconds 920 msec
+Ended Job = job_1543483850053_0093
+Stage-4 is selected by condition resolver.
+Stage-3 is filtered out by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Moving data to directory hdfs://sc-master-v2:8020/apps/hive/warehouse/wangliming.db/weibo_seg_result/.hive-staging_hive_2018-11-30_16-33-25_397_112470701060691191-1/-ext-10000
+Loading data to table wangliming.weibo_seg_result partition (week_seq=null)
+	 Time taken to load dynamic partitions: 0.414 seconds
+	Loading partition {week_seq=week1}
+	 Time taken for adding to write entity : 2
+Partition wangliming.weibo_seg_result{week_seq=week1} stats: [numFiles=4, numRows=4790110, totalSize=486732323, rawDataSize=4723827322]
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 4   Cumulative CPU: 984.92 sec   HDFS Read: 357501578 HDFS Write: 486732765 SUCCESS
+Total MapReduce CPU Time Spent: 16 minutes 24 seconds 920 msec
+OK
+Time taken: 317.735 seconds

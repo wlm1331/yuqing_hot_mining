@@ -1,0 +1,5 @@
+REATE TABLE  `weibo_hot_words` (
+  `word` varchar(255) DEFAULT NULL,
+  `freq` int DEFAULT NULL,
+  `week_seq` varchar(255) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8
